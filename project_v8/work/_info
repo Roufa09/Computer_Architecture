@@ -1,0 +1,1035 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/Phase3_mem
+Ealu
+Z0 w1715930798
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8
+Z5 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/ALU.vhd
+Z6 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/ALU.vhd
+l0
+L5 1
+V0@PiHoU6`AVjM2LZ4lP]=3
+!s100 :NLXV3nmQ8mT<:zbco`Pi0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1716018547
+!i10b 1
+Z9 !s108 1716018547.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/ALU.vhd|
+Z11 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/ALU.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Amyalu
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 0@PiHoU6`AVjM2LZ4lP]=3
+!i122 0
+l22
+L16 62
+V;VHGV[C2Tj9UhofK9k1Gz3
+!s100 _49[5m@8A=WoELVa?NDFA1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eccr
+Z14 w1715878756
+R2
+R3
+!i122 1
+R4
+Z15 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/CCR.vhd
+Z16 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/CCR.vhd
+l0
+L3 1
+VEaTFjKYI?3;5lioUWQdMe2
+!s100 `6M0<?ll7`DQ]SjUAj=Te2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/CCR.vhd|
+Z18 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/CCR.vhd|
+!i113 1
+R12
+R13
+Ac_my_dff
+R2
+R3
+DEx4 work 3 ccr 0 22 EaTFjKYI?3;5lioUWQdMe2
+!i122 1
+l11
+L10 13
+VaGaoJUd@hLi:b7j1VjlDm0
+!s100 DeUKJ3BMdONUaDa<>]fOQ0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Econtrol
+Z19 w1715933604
+R1
+R2
+R3
+!i122 2
+R4
+Z20 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Control.vhd
+Z21 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Control.vhd
+l0
+L5 1
+VL5:RP?ZEHbS2j:fec32n42
+!s100 1n:z[5=>U@bk1WSg;T6K@2
+R7
+32
+Z22 !s110 1716018548
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Control.vhd|
+Z24 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Control.vhd|
+!i113 1
+R12
+R13
+Amy_control
+R1
+R2
+R3
+DEx4 work 7 control 0 22 L5:RP?ZEHbS2j:fec32n42
+!i122 2
+l31
+L29 141
+VYeUT54ICnkmnXiU^[mhz?3
+!s100 PD>;45B3VG:N^W`T79YnJ0
+R7
+32
+R22
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Edatamemory
+R14
+R1
+R2
+R3
+!i122 3
+R4
+Z25 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/DataMemory .vhd
+Z26 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/DataMemory .vhd
+l0
+L5 1
+ViJ@=^<^oNdC;RD;h3<8Tj0
+!s100 _W_[z890D`2dRlagNgEHl0
+R7
+32
+R22
+!i10b 1
+Z27 !s108 1716018548.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/DataMemory .vhd|
+Z29 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/DataMemory .vhd|
+!i113 1
+R12
+R13
+Async_ram_a
+R1
+R2
+R3
+DEx4 work 10 datamemory 0 22 iJ@=^<^oNdC;RD;h3<8Tj0
+!i122 3
+l20
+L17 54
+V5dLH>VMZ0>EKAb1^_gej^1
+!s100 D`NN8?3Y<^B^jdjmEKdYB0
+R7
+32
+R22
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R12
+R13
+Edecode
+Z30 w1715938810
+R1
+R2
+R3
+!i122 4
+R4
+Z31 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Decode.vhd
+Z32 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Decode.vhd
+l0
+L7 1
+VYiMQkb@eh5Nl0Wo6eaGD;2
+!s100 UoWJ[;BU4a_S`Z5aPNXUd1
+R7
+32
+R22
+!i10b 1
+R27
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Decode.vhd|
+Z34 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Decode.vhd|
+!i113 1
+R12
+R13
+Adec_stage
+R1
+R2
+R3
+DEx4 work 6 decode 0 22 YiMQkb@eh5Nl0Wo6eaGD;2
+!i122 4
+l94
+L47 84
+VEX8d7PY58Lk[V0fhUEE]i1
+!s100 jZz7hem9NPZA^m1CCXMc10
+R7
+32
+R22
+!i10b 1
+R27
+R33
+R34
+!i113 1
+R12
+R13
+Edecodeexecute
+Z35 w1715933906
+R1
+R2
+R3
+!i122 5
+R4
+Z36 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/DecodeExecute.vhd
+Z37 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/DecodeExecute.vhd
+l0
+L6 1
+V?]KWaa5Gi4e1WHO0S;9FZ1
+!s100 6i64fC<dMBGozKk5^kkmM1
+R7
+32
+R22
+!i10b 1
+R27
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/DecodeExecute.vhd|
+Z39 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/DecodeExecute.vhd|
+!i113 1
+R12
+R13
+Aregbehaviour
+R1
+R2
+R3
+DEx4 work 13 decodeexecute 0 22 ?]KWaa5Gi4e1WHO0S;9FZ1
+!i122 5
+l98
+L77 120
+V;imNJ6c2eL^:^31D:>Sl51
+!s100 3^`NQD7]UceG_mgRBKKKg3
+R7
+32
+R22
+!i10b 1
+R27
+R38
+R39
+!i113 1
+R12
+R13
+Eexecutememory
+Z40 w1715883632
+R1
+R2
+R3
+!i122 6
+R4
+Z41 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/ExecuteMemory.vhd
+Z42 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/ExecuteMemory.vhd
+l0
+L6 1
+VDmM?^GS^4;KE5feV^OHfY1
+!s100 [@]oAH:2U^EkIhX`68i@a3
+R7
+32
+R22
+!i10b 1
+R27
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/ExecuteMemory.vhd|
+Z44 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/ExecuteMemory.vhd|
+!i113 1
+R12
+R13
+Aregbehaviour
+R1
+R2
+R3
+DEx4 work 13 executememory 0 22 DmM?^GS^4;KE5feV^OHfY1
+!i122 6
+l88
+L70 112
+VRMZlTGg7bG4Xel7kXOhzb1
+!s100 H^;>PzFXSeOYF6VGo`gLE3
+R7
+32
+R22
+!i10b 1
+R27
+R43
+R44
+!i113 1
+R12
+R13
+Efetchdecodereg
+Z45 w1715936294
+R1
+R2
+R3
+!i122 7
+R4
+Z46 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/FetchDecodeReg.vhd
+Z47 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/FetchDecodeReg.vhd
+l0
+L5 1
+Vm`i?KaUl<YaU?5Q0MEjUc1
+!s100 7^F@W@jmJG7BC<8e7Y7=E1
+R7
+32
+Z48 !s110 1716018549
+!i10b 1
+Z49 !s108 1716018549.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/FetchDecodeReg.vhd|
+Z51 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/FetchDecodeReg.vhd|
+!i113 1
+R12
+R13
+Aregbehaviour
+R1
+R2
+R3
+DEx4 work 14 fetchdecodereg 0 22 m`i?KaUl<YaU?5Q0MEjUc1
+!i122 7
+l29
+L16 40
+VSSS`P_7eWP21K8gNjoXk90
+!s100 ^VPzgoIgn<5PhcczQizZV0
+R7
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 1
+R12
+R13
+Eforwardingunit
+R14
+R1
+R2
+R3
+!i122 8
+R4
+Z52 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Forwarding_Unit.vhd
+Z53 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Forwarding_Unit.vhd
+l0
+L5 1
+VDMGa;=FiZmPogQeNf5U191
+!s100 Ib542EVg@]jY]V=KK?5=G3
+R7
+32
+R48
+!i10b 1
+R49
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Forwarding_Unit.vhd|
+Z55 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Forwarding_Unit.vhd|
+!i113 1
+R12
+R13
+Aarchc
+R1
+R2
+R3
+DEx4 work 14 forwardingunit 0 22 DMGa;=FiZmPogQeNf5U191
+!i122 8
+l33
+L31 16
+V7[P[R893jOa6UUY]Fi9=b0
+!s100 6g24f1:F<=h:OGconH7Z^0
+R7
+32
+R48
+!i10b 1
+R49
+R54
+R55
+!i113 1
+R12
+R13
+Einstruction_cache
+R14
+R1
+R2
+R3
+!i122 9
+R4
+Z56 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Instruction_Memory.vhd
+Z57 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Instruction_Memory.vhd
+l0
+L5 1
+VMS92Qz1T7G>`>bC=>iX6G2
+!s100 CXHcP^hd_;XT1;OYV6bGo3
+R7
+32
+R48
+!i10b 1
+R49
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Instruction_Memory.vhd|
+Z59 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Instruction_Memory.vhd|
+!i113 1
+R12
+R13
+Aic_behavioral
+R1
+R2
+R3
+DEx4 work 17 instruction_cache 0 22 MS92Qz1T7G>`>bC=>iX6G2
+!i122 9
+l18
+L13 13
+VfW>G;VEzGYWcLZz;[1O103
+!s100 J;844fbid;YlTa=3aQ;>k3
+R7
+32
+R48
+!i10b 1
+R49
+R58
+R59
+!i113 1
+R12
+R13
+Elatch
+R14
+R1
+R2
+R3
+!i122 10
+R4
+Z60 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Latch.vhd
+Z61 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Latch.vhd
+l0
+L6 1
+V2^]8P]<B3d835bKACXBeW3
+!s100 ANRYB3DV?]C`oiA[cYQ[C3
+R7
+32
+Z62 !s110 1716018550
+!i10b 1
+Z63 !s108 1716018550.000000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Latch.vhd|
+Z65 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Latch.vhd|
+!i113 1
+R12
+R13
+Aregbehaviour
+R1
+R2
+R3
+DEx4 work 5 latch 0 22 2^]8P]<B3d835bKACXBeW3
+!i122 10
+l37
+L23 47
+VnMg^cKi[CgB<6lZKWYKBE0
+!s100 5_2I`467]6IPc;i43H97j2
+R7
+32
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R12
+R13
+Ememorystage
+Z66 w1715929412
+R1
+R2
+R3
+!i122 11
+R4
+Z67 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/MemoryStage.vhd
+Z68 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/MemoryStage.vhd
+l0
+L5 1
+V>NhU4ZD`[jhgnKQYSkQ3o0
+!s100 3e^N<Y8l=7DTk1^]Ff9;U2
+R7
+32
+R62
+!i10b 1
+R63
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/MemoryStage.vhd|
+Z70 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/MemoryStage.vhd|
+!i113 1
+R12
+R13
+Amem_stage
+R1
+R2
+R3
+DEx4 work 11 memorystage 0 22 >NhU4ZD`[jhgnKQYSkQ3o0
+!i122 11
+l82
+L32 169
+VHR9@6^J<mBHTMIV<R;HUS0
+!s100 Y]0gg7?maITbVgZQiAM<g2
+R7
+32
+R62
+!i10b 1
+R63
+R69
+R70
+!i113 1
+R12
+R13
+Ememorywriteback
+Z71 w1715885674
+R1
+R2
+R3
+!i122 12
+R4
+Z72 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/MemoryWriteBack.vhd
+Z73 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/MemoryWriteBack.vhd
+l0
+L6 1
+VmO<hC<2H3kR]CmjDajQ321
+!s100 a:D4`>k`I7O2S;QO@GkR_2
+R7
+32
+Z74 !s110 1716018551
+!i10b 1
+R63
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/MemoryWriteBack.vhd|
+Z76 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/MemoryWriteBack.vhd|
+!i113 1
+R12
+R13
+Aregbehaviour
+R1
+R2
+R3
+DEx4 work 15 memorywriteback 0 22 mO<hC<2H3kR]CmjDajQ321
+!i122 12
+l59
+L41 84
+Vf>]XHiQeS282@U9KV3m>g2
+!s100 Aa61eY`kfzmoMBbS;5?e53
+R7
+32
+R74
+!i10b 1
+R63
+R75
+R76
+!i113 1
+R12
+R13
+Emy_adder
+R14
+R2
+R3
+!i122 13
+R4
+Z77 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_adder.vhd
+Z78 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_adder.vhd
+l0
+L4 1
+VFjlMaf=9aFlNWPMnMXH?k3
+!s100 A5lJZfMh@V_I]hj`4ZSML1
+R7
+32
+R74
+!i10b 1
+Z79 !s108 1716018551.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_adder.vhd|
+Z81 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_adder.vhd|
+!i113 1
+R12
+R13
+Aa_my_adder
+R2
+R3
+DEx4 work 8 my_adder 0 22 FjlMaf=9aFlNWPMnMXH?k3
+!i122 13
+l10
+L9 7
+VEOP9;;8K^;kWb:D@aED0N1
+!s100 GNi^[i0bJH4Ed:4A3E4hd2
+R7
+32
+R74
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R12
+R13
+Emy_dff
+R14
+R2
+R3
+!i122 14
+R4
+Z82 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_DFF.vhd
+Z83 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_DFF.vhd
+l0
+L3 1
+V<W=V<m8ZOhME@W40VfP=U2
+!s100 ;CP1MnmQ8hCh<3BN8HoFQ1
+R7
+32
+R74
+!i10b 1
+R79
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_DFF.vhd|
+Z85 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_DFF.vhd|
+!i113 1
+R12
+R13
+Ac_my_dff
+R2
+R3
+DEx4 work 6 my_dff 0 22 <W=V<m8ZOhME@W40VfP=U2
+!i122 14
+l12
+Z86 L11 13
+Vb12ib@eD;l8Ho>97PB89S2
+!s100 XiTVTjB5FPaU[QCc<T8Ck1
+R7
+32
+R74
+!i10b 1
+R79
+R84
+R85
+!i113 1
+R12
+R13
+Emy_dff_reg
+R14
+R2
+R3
+!i122 15
+R4
+Z87 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_DFF_Reg.vhd
+Z88 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_DFF_Reg.vhd
+l0
+L3 1
+VXF[zIK<Mn:;A6moa9>Y173
+!s100 48TBb5<H9TH8R82j>ce]S1
+R7
+32
+Z89 !s110 1716018552
+!i10b 1
+Z90 !s108 1716018552.000000
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_DFF_Reg.vhd|
+Z92 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_DFF_Reg.vhd|
+!i113 1
+R12
+R13
+Ad_my_dff
+R2
+R3
+DEx4 work 10 my_dff_reg 0 22 XF[zIK<Mn:;A6moa9>Y173
+!i122 15
+l12
+R86
+VSKJV3JQVYZMoVB=DbOPzS3
+!s100 fNS6IN<7U9dO7h`Y:F7L92
+R7
+32
+R89
+!i10b 1
+R90
+R91
+R92
+!i113 1
+R12
+R13
+Emy_nadder
+R14
+R2
+R3
+!i122 16
+R4
+Z93 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_nadder.vhd
+Z94 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_nadder.vhd
+l0
+L4 1
+V@YiQc<VV]FRf4AoVAQ]aQ0
+!s100 H>z<M8=TRC:czWNz6ki:F2
+R7
+32
+R89
+!i10b 1
+R90
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_nadder.vhd|
+Z96 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/my_nadder.vhd|
+!i113 1
+R12
+R13
+Aa_my_adder
+R2
+R3
+DEx4 work 9 my_nadder 0 22 @YiQc<VV]FRf4AoVAQ]aQ0
+!i122 16
+l19
+Z97 L12 15
+VQaI6n>M0234zM^i04Ub7S2
+!s100 TbJF5VS2M9o8Q;TAEjCJ?3
+R7
+32
+R89
+!i10b 1
+R90
+R95
+R96
+!i113 1
+R12
+R13
+Epc
+R14
+R1
+R2
+R3
+!i122 17
+R4
+Z98 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PC.vhd
+Z99 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PC.vhd
+l0
+L5 1
+VmZ6IUM^B6_97`hW<ZdXcO1
+!s100 GG199B6[9>>PUPLSDbO5?1
+R7
+32
+R89
+!i10b 1
+R90
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PC.vhd|
+Z101 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PC.vhd|
+!i113 1
+R12
+R13
+Apc_behavioral
+R1
+R2
+R3
+DEx4 work 2 pc 0 22 mZ6IUM^B6_97`hW<ZdXcO1
+!i122 17
+l15
+L13 21
+VA;F_H`YBCgXXz1d_5NBMd1
+!s100 PPojZahAg?ZV:M0n;_FFS0
+R7
+32
+R89
+!i10b 1
+R90
+R100
+R101
+!i113 1
+R12
+R13
+Epf_memory
+R14
+R1
+R2
+R3
+!i122 18
+R4
+Z102 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd
+Z103 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd
+l0
+L5 1
+V^3aW>Dl42HTL7=58NAbbz1
+!s100 b>G?9zDLRk<fkN9U5hnGV3
+R7
+32
+R89
+!i10b 1
+R90
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd|
+Z105 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd|
+!i113 1
+R12
+R13
+Async_ram_b
+R1
+R2
+R3
+DEx4 work 9 pf_memory 0 22 ^3aW>Dl42HTL7=58NAbbz1
+!i122 18
+l21
+L18 35
+V1M8=X_jfk6hQc:cNz1Gl=0
+!s100 XP=ck^Y1jgMVhhX2lRh<F0
+R7
+32
+R89
+!i10b 1
+R90
+R104
+R105
+!i113 1
+R12
+R13
+Eprocessor1
+Z106 w1715939106
+Z107 DPx8 synopsys 10 attributes 0 22 dc>JdEHRM@6GGENe5bZ?D1
+Z108 DPx4 ieee 14 std_logic_misc 0 22 dN]HY6l5ohPcZ:TaC@B;53
+R1
+R2
+R3
+!i122 19
+R4
+Z109 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Processor1.vhd
+Z110 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Processor1.vhd
+l0
+L6 1
+VQjbg>lkBn86E[7Qg0[4:i2
+!s100 b15:[Z]02j5hEQ1Dn<N:T1
+R7
+32
+Z111 !s110 1716018553
+!i10b 1
+Z112 !s108 1716018553.000000
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Processor1.vhd|
+Z114 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Processor1.vhd|
+!i113 1
+R12
+R13
+Astruct
+R107
+R108
+R1
+R2
+R3
+DEx4 work 10 processor1 0 22 Qjbg>lkBn86E[7Qg0[4:i2
+!i122 19
+l553
+L17 947
+VWLl>KlJb1ATX:9Q4YIEGX1
+!s100 bQG7R2_g;`_1m8md@[9mR0
+R7
+32
+R111
+!i10b 1
+R112
+R113
+R114
+!i113 1
+R12
+R13
+Eregisterfile
+R14
+R1
+R2
+R3
+!i122 20
+R4
+Z115 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/RegisterFile.vhd
+Z116 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/RegisterFile.vhd
+l0
+L5 1
+VWzm_;I=8b>]PjQZ@62Ge53
+!s100 G7NI2cHMU9PmN1TELOG;J3
+R7
+32
+R111
+!i10b 1
+R112
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/RegisterFile.vhd|
+Z118 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/RegisterFile.vhd|
+!i113 1
+R12
+R13
+Aarchregisterfile
+R1
+R2
+R3
+DEx4 work 12 registerfile 0 22 Wzm_;I=8b>]PjQZ@62Ge53
+!i122 20
+l40
+L20 61
+VQPHkkKQDIRgl<c9Q5>TY30
+!s100 KVc_^lUU=obORY;gU_aG;3
+R7
+32
+R111
+!i10b 1
+R112
+R117
+R118
+!i113 1
+R12
+R13
+Esignextend
+R14
+R1
+R2
+R3
+!i122 21
+R4
+Z119 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/SignExtend.vhd
+Z120 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/SignExtend.vhd
+l0
+L5 1
+VlX^k=Il_3m2KRm>b0gD5?2
+!s100 7l81@Z:3oaC]gnm=2F4Z`2
+R7
+32
+R111
+!i10b 1
+R112
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/SignExtend.vhd|
+Z122 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/SignExtend.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 10 signextend 0 22 lX^k=Il_3m2KRm>b0gD5?2
+!i122 21
+l13
+R97
+V`W4zcRb3F1^M7Die_h^Z61
+!s100 [QS>dT;lH;93B?XJAJlBN0
+R7
+32
+R111
+!i10b 1
+R112
+R121
+R122
+!i113 1
+R12
+R13
+Estackreg
+R14
+R2
+R3
+!i122 22
+R4
+Z123 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Stack_Register.vhd
+Z124 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Stack_Register.vhd
+l0
+L3 1
+V6`<c1chl@Hm9QP_92Dk;Y2
+!s100 J`Q1L3`ZzlXVUYVBVBJ>K0
+R7
+32
+Z125 !s110 1716018554
+!i10b 1
+R112
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Stack_Register.vhd|
+Z127 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/Stack_Register.vhd|
+!i113 1
+R12
+R13
+Amy_stack_reg
+R2
+R3
+DEx4 work 8 stackreg 0 22 6`<c1chl@Hm9QP_92Dk;Y2
+!i122 22
+l14
+L12 19
+Vb0THf3liz]HeJk8nXEj2X2
+!s100 S_?1FN?O46ncl8lQ7CV5:1
+R7
+32
+R125
+!i10b 1
+R112
+R126
+R127
+!i113 1
+R12
+R13
+Ewritebackstage
+Z128 w1715879564
+R1
+R2
+R3
+!i122 23
+R4
+Z129 8D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/WritrBackStage.vhd
+Z130 FD:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/WritrBackStage.vhd
+l0
+L5 1
+VXRV`_;_kSLE6b[HMMA]TP0
+!s100 LIBhWE2LhTF5R_oYAC[8_3
+R7
+32
+R125
+!i10b 1
+Z131 !s108 1716018554.000000
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/WritrBackStage.vhd|
+!s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/WritrBackStage.vhd|
+!i113 1
+R12
+R13
+Amyarch
+R1
+R2
+R3
+DEx4 work 14 writebackstage 0 22 XRV`_;_kSLE6b[HMMA]TP0
+!i122 23
+l21
+L18 11
+VSNB=9@V^m@dLa7z_L;U[i1
+!s100 jO31Vn=IlPf6c:OWR6ZbK1
+R7
+32
+R125
+!i10b 1
+R131
+R132
+Z133 !s107 D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/WritrBackStage.vhd|
+!i113 1
+R12
+R13

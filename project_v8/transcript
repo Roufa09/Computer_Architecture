@@ -1,0 +1,335 @@
+# Compile of ALU.vhd was successful.
+# Compile of CCR.vhd was successful.
+# Compile of Control.vhd was successful.
+# Compile of DataMemory .vhd was successful.
+# Compile of Decode.vhd was successful.
+# Compile of DecodeExecute.vhd was successful.
+# Compile of ExecuteMemory.vhd was successful.
+# Compile of FetchDecodeReg.vhd was successful.
+# Compile of Forwarding_Unit.vhd was successful.
+# Compile of Instruction_Memory.vhd was successful.
+# Compile of Latch.vhd was successful.
+# Compile of MemoryStage.vhd was successful.
+# Compile of MemoryWriteBack.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_DFF.vhd was successful.
+# Compile of my_DFF_Reg.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of PC.vhd was successful.
+# Compile of PF_Memory.vhd was successful.
+# Compile of Processor1.vhd was successful.
+# Compile of RegisterFile.vhd was successful.
+# Compile of SignExtend.vhd was successful.
+# Compile of Stack_Register.vhd was successful.
+# Compile of WritrBackStage.vhd was successful.
+# 24 compiles, 0 failed with no errors.
+vsim -gui work.processor1
+# vsim -gui work.processor1 
+# Start time: 10:52:27 on May 18,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.processor1(struct)
+# Loading work.pc(pc_behavioral)
+# Loading work.instruction_cache(ic_behavioral)
+# Loading work.forwardingunit(archc)
+# Loading work.latch(regbehaviour)
+# Loading work.my_dff(c_my_dff)
+# Loading work.fetchdecodereg(regbehaviour)
+# Loading work.decode(dec_stage)
+# Loading work.registerfile(archregisterfile)
+# Loading work.control(my_control)
+# Loading work.signextend(behavior)
+# Loading work.decodeexecute(regbehaviour)
+# Loading work.alu(myalu)
+# Loading work.ccr(c_my_dff)
+# Loading work.executememory(regbehaviour)
+# Loading work.memorystage(mem_stage)
+# Loading work.pf_memory(sync_ram_b)
+# Loading work.datamemory(sync_ram_a)
+# Loading work.stackreg(my_stack_reg)
+# Loading work.memorywriteback(regbehaviour)
+# Loading work.writebackstage(myarch)
+add wave -position insertpoint  \
+sim:/processor1/ALU_ADDRESS \
+sim:/processor1/ALU_ADDRESS_ExeMem \
+sim:/processor1/AlU_Valu1_OuT_LatchWB \
+sim:/processor1/ALUResult1 \
+sim:/processor1/ALUResult2 \
+sim:/processor1/AluSelectorOut_sig \
+sim:/processor1/ALUSelectorsOut_ED \
+sim:/processor1/alusourceOut_sig \
+sim:/processor1/alusourceOut_sig_DE \
+sim:/processor1/AluValueOut1_ExeMem \
+sim:/processor1/AluValueOut1_MemWB \
+sim:/processor1/AluValueOut2_ExeMem \
+sim:/processor1/AluValueOut2_MemWB \
+sim:/processor1/Carry_FlagOut \
+sim:/processor1/clk \
+sim:/processor1/datain_PF \
+sim:/processor1/datain_PF_DE_OUT \
+sim:/processor1/datain_PF_ExeMem_OUT \
+sim:/processor1/DataMemoryValueOut_MemWB \
+sim:/processor1/dataOUT_PF \
+sim:/processor1/DatMemValueOut_DataMem \
+sim:/processor1/DestAdrssOut1_ED \
+sim:/processor1/DestAdrssOuT1_ExeMem \
+sim:/processor1/DestAdrssOuT1_LatchWB \
+sim:/processor1/DestAdrssOuT1_MemWB \
+sim:/processor1/DestAdrssOut2_ED \
+sim:/processor1/DestAdrssOuT2_ExeMem \
+sim:/processor1/DestAdrssOuT2_MemWB \
+sim:/processor1/destOut1 \
+sim:/processor1/destOut2 \
+sim:/processor1/enable_CCR \
+sim:/processor1/Exception_orring \
+sim:/processor1/Exception_OUT \
+sim:/processor1/Exception_OUT_Mem \
+sim:/processor1/FetchDecodeOut \
+sim:/processor1/FLAGS_Enable \
+sim:/processor1/FLags_Enable_DE_OUT \
+sim:/processor1/FlagsOuT_CCR_in \
+sim:/processor1/FlagsOuT_CCR_Out \
+sim:/processor1/FU_Mux1_OUTPUT \
+sim:/processor1/FU_Mux1_Selector1_OUT \
+sim:/processor1/FU_Mux2_OUTPUT \
+sim:/processor1/FU_Mux2_Selector2_OUT \
+sim:/processor1/ImmediateSig_sig_DE_OUT \
+sim:/processor1/ImmediateValueorEA_ED \
+sim:/processor1/ImmSignalOut_sig \
+sim:/processor1/IN_Value_DE_OUT \
+sim:/processor1/IN_Value_ExeMem_OUT \
+sim:/processor1/IN_Value_FD_OUT \
+sim:/processor1/IN_Value_MemWB_OUT \
+sim:/processor1/INPORT \
+sim:/processor1/Instruction \
+sim:/processor1/InstructionAddress_PCOut \
+sim:/processor1/MemRead_PF \
+sim:/processor1/MemRead_PF_DE_OUT \
+sim:/processor1/MemRead_PF_ExeMem_OUT \
+sim:/processor1/MemReadOut_ExeMem \
+sim:/processor1/MemWrite_PF \
+sim:/processor1/MemWrite_PF_DE_OUT \
+sim:/processor1/MemWrite_PF_ExeMem_OUT \
+sim:/processor1/MemWriteOut_ExeMem \
+sim:/processor1/MReadOut_sig \
+sim:/processor1/MReadOut_sig_DE \
+sim:/processor1/Mux1Out_Instruction \
+sim:/processor1/Mux1Sel \
+sim:/processor1/Mux2Out_ImmediateValue \
+sim:/processor1/Mux3Out_Src2orImm \
+sim:/processor1/MWriteOut_sig \
+sim:/processor1/MWriteOut_sig_DE \
+sim:/processor1/n \
+sim:/processor1/Negative_FlagOut \
+sim:/processor1/notclk \
+sim:/processor1/OUT_Enable \
+sim:/processor1/OUT_Enable_DE_OUT \
+sim:/processor1/OUT_Enable_ExeMem_OUT \
+sim:/processor1/OUT_Enable_MemWB_OUT \
+sim:/processor1/OUT_Value_MemWB_OUT \
+sim:/processor1/OUTPORT \
+sim:/processor1/Overflow_FlagOut \
+sim:/processor1/PF_address_ExeMem_OUT \
+sim:/processor1/PUSH_DATA_ExeMem \
+sim:/processor1/Readport0Out \
+sim:/processor1/Readport1Out \
+sim:/processor1/RegWriteOut_ED \
+sim:/processor1/RegWriteOut_ExeMem \
+sim:/processor1/RegWriteOuT_LatchWB \
+sim:/processor1/RegWriteOut_MemWriteBack \
+sim:/processor1/RegWriteOut_sig \
+sim:/processor1/reset \
+sim:/processor1/SignExtendOut \
+sim:/processor1/source1addOut \
+sim:/processor1/source1addOut_DE_OUT \
+sim:/processor1/source2addOut \
+sim:/processor1/source2addOut_DE_OUT \
+sim:/processor1/SP_signal \
+sim:/processor1/SP_signal_DE_OUT \
+sim:/processor1/SP_signal_ExeMem_OUT \
+sim:/processor1/STD_DATA_ExeMem \
+sim:/processor1/STD_PUSH_DATA \
+sim:/processor1/Value1FromWriteBackStage \
+sim:/processor1/Value2FromWriteBackStage \
+sim:/processor1/ValueOfReg1_ED \
+sim:/processor1/ValueOfReg2_ED \
+sim:/processor1/WBdatasrcOut_sig \
+sim:/processor1/WriteAdd1In \
+sim:/processor1/WriteBackDataSrcOut_ED \
+sim:/processor1/WriteBackDataSrcOut_ExeMem \
+sim:/processor1/WriteBackDataSrcOut_MemWB \
+sim:/processor1/writeport1In \
+sim:/processor1/Zero_FlagOut
+force -freeze sim:/processor1/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor1/reset 1 0
+mem load -i {D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/testingout2.mem} /processor1/InstructionMemoryInst/instruction
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/InstructionMemoryInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor1/DecodeInst/regF1
+force -freeze sim:/processor1/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 4096 is out of range 0 to 4095.
+#    Time: 2200 ps  Iteration: 2  Process: /processor1/MemoryStageInst/PFMem_inst/line__42 File: D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd
+# Fatal error in Process line__42 at D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd line 45
+# 
+# HDL call sequence:
+# Stopped at D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd 45 Process line__42
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+mem load -i {D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/testingout2.mem} /processor1/InstructionMemoryInst/instruction
+mem load -filltype value -filldata 0000000000000100 -fillradix symbolic /processor1/InstructionMemoryInst/instruction(3)
+mem save -o testingout2.mem -f mti -data symbolic -addr hex -wordsperline 1 /processor1/InstructionMemoryInst/instruction
+force -freeze sim:/processor1/reset 1 0
+force -freeze sim:/processor1/clk 1 0
+force -freeze sim:/processor1/clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/InstructionMemoryInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor1/DecodeInst/regF1
+force -freeze sim:/processor1/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 4096 is out of range 0 to 4095.
+#    Time: 2200 ps  Iteration: 2  Process: /processor1/MemoryStageInst/PFMem_inst/line__42 File: D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd
+# Fatal error in Process line__42 at D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd line 45
+# 
+# HDL call sequence:
+# Stopped at D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd 45 Process line__42
+# 
+mem load -filltype value -filldata 000F -fillradix hexadecimal /processor1/InstructionMemoryInst/instruction(5)
+mem load -filltype value -filldata 000D -fillradix hexadecimal /processor1/InstructionMemoryInst/instruction(11)
+mem load -filltype value -filldata 000C -fillradix hexadecimal /processor1/InstructionMemoryInst/instruction(13)
+mem save -o testingout2.mem -f mti -data symbolic -addr hex -wordsperline 1 /processor1/InstructionMemoryInst/instruction
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor1/reset 1 0
+force -freeze sim:/processor1/clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/InstructionMemoryInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor1/DecodeInst/regF1
+force -freeze sim:/processor1/reset 0 0
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+mem load -i {D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/testingout2.mem} /processor1/InstructionMemoryInst/instruction
+force -freeze sim:/processor1/reset 1 0
+force -freeze sim:/processor1/clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor1/InstructionMemoryInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor1/DecodeInst/regF1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor1/DecodeInst/regF1
+force -freeze sim:/processor1/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 4096 is out of range 0 to 4095.
+#    Time: 2200 ps  Iteration: 2  Process: /processor1/MemoryStageInst/PFMem_inst/line__42 File: D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd
+# Fatal error in Process line__42 at D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd line 45
+# 
+# HDL call sequence:
+# Stopped at D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd 45 Process line__42
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Faculty of Engineering/4-Senior 1/Spring 2024/Computer Architecture/Project/project_v8/PF_Memory.vhd 45 Process line__42
+# 
+quit -sim
+# End time: 11:07:27 on May 18,2024, Elapsed time: 0:15:00
+# Errors: 1, Warnings: 6
